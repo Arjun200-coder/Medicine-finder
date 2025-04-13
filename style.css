@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    /* background: linear-gradient(to right, #588157, #3a5a40); */
+    background-color: #00a896;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navbar{
+    padding: 1.8rem;
+  }
+  
+  .navbar {
+    background-color: #00695c;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    #navbar {
+        padding: 2.4rem;
+    }
+
+    .navbar{
+        padding: 1.5rem;
+    }
+  }
+  
+  .navbar h1 {
+    font-size: 1.3rem;
+    color: #ffeb3b;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    color: yellow;
+  }
+  
+  .main-container {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  main .main-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    max-width: 600px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 99px;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 1rem;
+    background-color: #d5f5f2e6;
+  }
+  
+  button {
+    background-color: #ffc107;
+    padding: 0.8rem 1.5rem;
+    border: 1px solod darkgoldenrod;
+    border-radius: 99px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3.4rem;
+  }
+  
+  .card {
+    background-color: white;
+    color: black;
+    padding: 0.8rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 13rem;
+    border-radius: 8px;
+    margin-top: 0.4rem;
+  }
+  
+  footer {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  
+
+  main img {
+    border-radius: 48%;
+    width: 180px;
+    height: 180px;
+    padding-top: 1rem;
+
+  }

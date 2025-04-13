@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medicine Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="./index.html">HOME</a>
+      <h1>Medicine Finder</h1>
+      <a href="./about.html">ABOUT ME</a>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <p class="main-para">All Generic Alternatives <br> of Medicines..</p>
+    <input type="text" id="searchInput" placeholder="Search your medicine..." />
+    <button onclick="findMedicine()">Find Alternative</button>
+    <p id="message"></p>
+    <div id="results" class="card-container"></div>
+  </main>
+
+  <footer>
+    <img src="JA-pmbi.png" />
+    <p>2025 Medicine Finder. All rights Reserved.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
